@@ -39,4 +39,4 @@ jobs:
 
       # Run tests
       - name: Run tests
-        run: pytest app_test.py -v
+        run: python -m pytest app_test.py -v
