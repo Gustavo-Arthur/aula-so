@@ -35,9 +35,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r aula-so/requirements.txt
+          pip install -r requirements.txt
           pip install httpx pytest
 
       # Run tests
       - name: Run tests
-        run: pytest aula-so/app_test.py -v
+        run: pytest app_test.py -v
